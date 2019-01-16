@@ -194,7 +194,7 @@ export default class extends Component {
 
   componentWillReceiveProps (nextProps) {
     if (!nextProps.autoplay && this.autoplayTimer) clearTimeout(this.autoplayTimer)
-    this.setState(this.initState(nextProps, false)
+    this.setState(this.initState(nextProps, false))
   }
 
   componentDidMount () {
